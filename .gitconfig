@@ -1,0 +1,20 @@
+[user]
+	name = D. Dallas Wheeler
+	pager = less -r
+[color]
+    branch = auto
+    diff = auto
+    status = auto
+[color "branch"]
+    current = cyan
+[color "diff"]
+    meta = yellow
+    frag = magenta
+    old = red
+    new = cyan
+[color "status"]
+    added = yellow
+    changed = green
+    untracked = cyan
+[core]
+	excludesfile = ~/.gitignore
